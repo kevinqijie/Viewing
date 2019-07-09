@@ -1,0 +1,30 @@
+.nav > li:hover .dropdown-menu { 
+    display: block;
+     }
+.carousel-inner .item >img{
+width: 1200px;
+height: 400px;
+}
+
+.pcShow{
+margin-top: 30px;
+
+}
+.pcShow img{
+width: 231px;
+height: 308px;
+}
+.pcShow1{
+margin-top: 20px;
+}
+.pcShow1 img{
+width: 180px;
+height: 270px;
+}
+.le{
+width: 360px;
+left: -180px;
+}
+.le>li{
+float: left;
+}
