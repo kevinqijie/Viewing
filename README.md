@@ -1,2 +1,41 @@
 # Viewing
 bootstarp
+假数据 
+let data = [{
+    id:'电视剧'，
+    data:[
+        {
+            name:'大人物',
+            bsrc:'./img/9.jpg'
+        }，
+         {
+            name:'疯狂外星人',
+            bsrc:'./img/9.jpg'
+        }
+    ]
+    },{
+    id:'电影'，
+    data:[
+        {
+            name:'倚天屠龙记',
+            bsrc:'./img/11.jpg',
+            vsrc:'./vedio/1.mp4'
+        }，
+         {
+            name:'黄金瞳',
+            bsrc:'./img/12.jpg'
+        }
+    ]
+    },{
+    id:'动漫'，
+    data:[
+        {
+            name:'芝麻胡同',
+            bsrc:'./img/13.jpg'
+        }，
+         {
+            name:'大人物',
+            bsrc:'./img/9.jpg'
+        }
+    ]
+    },]

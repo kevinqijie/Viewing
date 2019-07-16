@@ -10,14 +10,20 @@ height: 400px;
 margin-top: 30px;
 
 }
-.pcShow img{
+.pcShow a{
+    display: inline-block;
+    width: 231px;
+    height: 308px;
+  
+}
+.pcShow a img{
 width: 231px;
 height: 308px;
 }
 .pcShow1{
 margin-top: 20px;
 }
-.pcShow1 img{
+.pcShow1  img{
 width: 180px;
 height: 270px;
 }
@@ -27,4 +33,19 @@ left: -180px;
 }
 .le>li{
 float: left;
+}
+.lists{
+    padding-bottom: 20px;
+}
+.fenl{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.fenl ol{
+    width: 100%;
+}
+video{
+    width: 700px;
+    height: 400px;
 }
