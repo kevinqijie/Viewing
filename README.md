@@ -6,7 +6,8 @@ let data = [{
     data:[
         {
             name:'大人物',
-            bsrc:'./img/9.jpg'
+            bsrc:'./img/9.jpg',
+            vsrc:'./vedio/1.mp4',
         }，
          {
             name:'疯狂外星人',
@@ -24,6 +25,7 @@ let data = [{
          {
             name:'黄金瞳',
             bsrc:'./img/12.jpg'
+            vsrc:'./vedio/2.mp4'
         }
     ]
     },{

@@ -1,9 +1,11 @@
 .nav > li:hover .dropdown-menu { 
     display: block;
      }
-.carousel-inner .item >img{
+.carousel-inner .item a img{
 width: 1200px;
-height: 400px;
+height: 40vw;
+max-height: 400px;
+
 }
 
 .pcShow{
@@ -12,13 +14,63 @@ margin-top: 30px;
 }
 .pcShow a{
     display: inline-block;
-    width: 231px;
-    height: 308px;
-  
+    position: relative;
+    overflow: hidden;
+}
+.pcShow a:hover .Mongolia{
+    bottom: 0;
 }
 .pcShow a img{
-width: 231px;
-height: 308px;
+width: 16vw;
+height: 22vw;
+min-width: 60px;
+min-height: 90px;
+
+}
+.tip{
+    position: fixed;
+    top: 50px;
+    width: 100%;
+    height: 30px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.7);
+}
+.tip span{
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    position: absolute;
+    white-space: nowrap;
+    animation: ti 25s linear infinite;
+}
+@keyframes ti{
+    0%{left: 2000px;}
+    10%{left: 1750px;}
+    20%{left: 1500px;}
+    30%{left: 1250px;}
+    40%{left: 1000px;}
+    50%{left: 750px;}
+    60%{left: 500;}
+    70%{left: 250px;}
+    80%{left: 0px;}
+    90%{left: -250px;}
+    100%{left: -500px;}
+    
+}
+.pcShow a .Mongolia{
+    display: inline-block;
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    bottom: -20%;
+    left: 0;
+    transition: all 0.3s;
+    background: rgba(0, 0, 0, 0.8);
+    box-sizing: border-box;
+    padding: 5px;
+    color: #fff;
+    font-weight: bold;
 }
 .pcShow1{
 margin-top: 20px;
@@ -46,6 +98,9 @@ float: left;
     width: 100%;
 }
 video{
-    width: 700px;
-    height: 400px;
+    
+   width: 70vw;
+   height: 40vw;
+   outline: none;
+
 }
