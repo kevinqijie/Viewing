@@ -45,17 +45,17 @@ min-height: 90px;
     animation: ti 25s linear infinite;
 }
 @keyframes ti{
-    0%{left: 2000px;}
-    10%{left: 1750px;}
-    20%{left: 1500px;}
-    30%{left: 1250px;}
-    40%{left: 1000px;}
-    50%{left: 750px;}
-    60%{left: 500;}
-    70%{left: 250px;}
-    80%{left: 0px;}
-    90%{left: -250px;}
-    100%{left: -500px;}
+    0%{left: 100%;}
+    10%{left: 80%;}
+    20%{left: 60%;}
+    30%{left: 40%;}
+    40%{left: 20%;}
+    50%{left: 0%;}
+    60%{left: -20%;}
+    70%{left: -40%;}
+    80%{left: -60%;}
+    90%{left: -80%;}
+    100%{left: -100%;}
     
 }
 .pcShow a .Mongolia{
